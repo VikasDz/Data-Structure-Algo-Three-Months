@@ -125,7 +125,7 @@ int main()
   cout << "Your Celsius Value : " << c << endl;
 
 
-  // Find Prime No 1 to N;
+  // Find Prime No 2 to N;
 
   int prime;
   int n = 2;
@@ -150,11 +150,11 @@ int main()
   {
     if (prime % 2 == 0)
     {
-      cout << "Not Prime Number "<< n << endl;
+      cout << prime << "  Not Prime Number For "<< n << endl;
     }
     else
     {
-      cout << " Prime Number " << n << endl;
+      cout << prime << "  Prime Number For " << n << endl;
     }
     n = n + 1;
   }

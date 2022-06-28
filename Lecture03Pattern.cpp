@@ -21,7 +21,7 @@ int main()
         }
         cout << endl;
         row = row+1;
-    }
+    }  
 
 
     //Pattern Question (123....)
